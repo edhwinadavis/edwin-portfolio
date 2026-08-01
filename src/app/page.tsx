@@ -192,8 +192,8 @@ const ERP_SOLUTIONS: ERPProject[] = [
     icon: <School className="w-8 h-8 mb-4" />,
     description: "Complete management for schools and colleges with student tracking, attendance, and fee management.",
     features: ["Student Management", "Attendance Tracking", "Fee Collection", "Reports & Analytics"],
-    priceStart: "3,999",
-    pricePremium: "6,999",
+    priceStart: "6,000",
+    pricePremium: "10,000",
     color: "blue"
   },
   {
@@ -201,8 +201,8 @@ const ERP_SOLUTIONS: ERPProject[] = [
     icon: <Factory className="w-8 h-8 mb-4" />,
     description: "Inventory, production, and supply chain tracking with real-time insights and dashboard with notifications",
     features: ["Inventory Control", "Production Planning", "Supply Chain", "Quality Management"],
-    priceStart: "3,999",
-    pricePremium: "6,999",
+    priceStart: "10,000",
+    pricePremium: "15,000",
     color: "orange"
   }
 ];
@@ -508,7 +508,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <Layout size={16} />,
       label: 'Web Design (8 Pages)',
       detail: 'Home, About, Services, etc.',
-      price: 15000,
+      price: 14000,
       required: true,
       badge: 'Required'
     },
@@ -583,7 +583,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
         </div>
         <div className="text-left sm:text-right">
           <p className="text-xs sm:text-sm text-gray-500">Starting at</p>
-          <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">₹13,000</p>
+          <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">₹25,000</p>
         </div>
       </div>
       
@@ -649,7 +649,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
 
         <div className="flex justify-between text-xs">
           <span className="text-gray-700 dark:text-gray-300">+ Additional Pages</span>
-          <span className="font-semibold text-gray-900 dark:text-white">₹1,000/page</span>
+          <span className="font-semibold text-gray-900 dark:text-white">₹3,000/page</span>
         </div>
         
         <div className="flex items-center justify-between p-3 bg-green-50 dark:bg-green-900/10 rounded-xl">
@@ -660,7 +660,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
               <p className="text-[10px] text-gray-600 dark:text-gray-400">Annual Maintenance</p>
             </div>
           </div>
-          <span className="font-semibold text-green-600 text-sm">₹3,000/yr</span>
+          <span className="font-semibold text-green-600 text-sm">₹10,000/yr</span>
         </div>
 
 
