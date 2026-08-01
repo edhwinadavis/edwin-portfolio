@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jibin Victor John | Portfolio",
-  description: "Full-Stack Developer Portfolio - Web, Mobile & ERP Solutions",
+  title: "Edhwin A Davis | Portfolio",
+  description: "HiTech - Web, Mobile & ERP Solutions",
 };
 
 export default function RootLayout({
