@@ -583,7 +583,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
         </div>
         <div className="text-left sm:text-right">
           <p className="text-xs sm:text-sm text-gray-500">Starting at</p>
-          <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">₹25,000</p>
+          <p className="text-2xl sm:text-3xl font-bold text-blue-600 dark:text-blue-400">₹24,000</p>
         </div>
       </div>
       
