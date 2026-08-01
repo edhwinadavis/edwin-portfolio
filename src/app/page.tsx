@@ -1243,7 +1243,7 @@ function Footer({ onContact }: { onContact: (type: string) => void }) {
               {/* <div className="w-10 h-10 rounded-xl bg-linear-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white font-bold text-xl">
                 JV
               </div> */}
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Dev OptionXi</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">HiTech</h3>
             </div>
             <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
               Crafting digital experiences with modern technology. Full-stack development services for web and mobile.
