@@ -258,7 +258,7 @@ export default function Portfolio() {
 
   const handleWhatsAppContact = (type: string, total?: number, selectedItems?: string[]) => {
     let message = "";
-    const phone = "919496672190"; // Replace with your actual WhatsApp number
+    const phone = "917356615425"; // Replace with your actual WhatsApp number
     
     switch(type) {
       case 'wordpress':
@@ -270,10 +270,10 @@ export default function Portfolio() {
         }
         break;
       case 'android':
-        message = `Hi! I'm interested in Android App Development (₹2,000/screen). I have a project in mind.`;
+        message = `Hi! I'm interested in Android App Development (₹5,000/screen). I have a project in mind.`;
         break;
       case 'nextjs':
-        message = `Hi! I'm interested in Next.js WebApp Development (₹2,000/screen). Let's discuss my project.`;
+        message = `Hi! I'm interested in Next.js WebApp Development (₹5,000/screen). Let's discuss my project.`;
         break;
       case 'campus-erp':
         message = `Hi! I'm interested in the Campus ERP solution. I'd like to know more about the pricing and features.`;
@@ -499,7 +499,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <Server size={16} />,
       label: 'Initial Setup + Hosting',
       detail: 'Domain, SSL, Cloudflare, 1st Year',
-      price: 5000,
+      price: 10000,
       required: true,
       badge: 'Required'
     },
@@ -508,7 +508,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <Layout size={16} />,
       label: 'Web Design (8 Pages)',
       detail: 'Home, About, Services, etc.',
-      price: 8000,
+      price: 15000,
       required: true,
       badge: 'Required'
     },
@@ -517,7 +517,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <FileText size={16} />,
       label: 'Blog Design',
       detail: 'Custom blog layout',
-      price: 3000,
+      price: 6000,
       badge: 'Optional'
     },
     {
@@ -525,7 +525,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <Mail size={16} />,
       label: 'Professional Email',
       detail: 'Zoho Workspace (India)',
-      price: 3000,
+      price: 6000,
       badge: 'Optional'
     },
     {
@@ -533,7 +533,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <Mail size={16} />,
       label: 'SEO and Analytics',
       detail: 'Google Analytics',
-      price: 5000,
+      price: 15000,
       badge: 'Optional'
     },
     {
@@ -541,7 +541,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <CreditCard size={16} />,
       label: 'Payment Gateway',
       detail: 'Razorpay or Stripe',
-      price: 7000,
+      price: 10000,
       badge: 'Optional'
     },
     {
@@ -549,7 +549,7 @@ function WordPressPricing({ onContact, darkMode }: { onContact: (type: string, t
       icon: <PenTool size={16} />,
       label: 'Custom Theme',
       detail: 'Fully customized design',
-      price: 10000,
+      price: 20000,
       badge: 'Optional'
     }
   ];
@@ -704,7 +704,7 @@ function AppDevelopmentPricing({ onContact }: { onContact: (type: string) => voi
               <h5 className="font-bold text-base sm:text-lg text-green-400">Android App</h5>
             </div>
             <p className="text-2xl sm:text-3xl font-bold mb-2">
-              ₹2,000 <span className="text-sm font-normal text-gray-400">/ screen</span>
+              ₹5,000 <span className="text-sm font-normal text-gray-400">/ screen</span>
             </p>
             <p className="text-xs text-gray-400 mb-4">+ Functionality charges</p>
             
@@ -736,7 +736,7 @@ function AppDevelopmentPricing({ onContact }: { onContact: (type: string) => voi
               <h5 className="font-bold text-base sm:text-lg text-blue-400">Next.js WebApp</h5>
             </div>
             <p className="text-2xl sm:text-3xl font-bold mb-2">
-              ₹2,000 <span className="text-sm font-normal text-gray-400">/ screen</span>
+              ₹5,000 <span className="text-sm font-normal text-gray-400">/ screen</span>
             </p>
             <p className="text-xs text-gray-400 mb-4">+ Functionality charges</p>
             
@@ -1258,7 +1258,7 @@ function Footer({ onContact }: { onContact: (type: string) => void }) {
                   JV
                 </div> */}
                 <img
-                    src="/assets/jibin.jpeg"
+                    src="/assets/edwin_profile.png"
                     alt="Edhwin"
                     className="w-12 h-12 rounded-full object-cover"
                     onError={(e) => {
