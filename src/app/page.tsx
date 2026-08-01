@@ -305,7 +305,7 @@ export default function Portfolio() {
                 JV
               </div> */}
               <h1 className="text-xl sm:text-2xl font-bold bg-linear-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                Dev OptionXi
+                Dev HiTech
               </h1>
             </div>
             
@@ -1259,7 +1259,7 @@ function Footer({ onContact }: { onContact: (type: string) => void }) {
                 </div> */}
                 <img
                     src="/assets/jibin.jpeg"
-                    alt="Jibin"
+                    alt="Edhwin"
                     className="w-12 h-12 rounded-full object-cover"
                     onError={(e) => {
                       e.currentTarget.src = ""; // or a fallback URL
@@ -1267,8 +1267,8 @@ function Footer({ onContact }: { onContact: (type: string) => void }) {
                     }}
                   />
                 <div>
-                  <p className="font-semibold text-gray-900 dark:text-white">Jibin Victor John</p>
-                  <p className="text-sm text-gray-600 dark:text-gray-400">Full-Stack Developer</p>
+                  <p className="font-semibold text-gray-900 dark:text-white">Edhwin A Davis</p>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Founder</p>
                 </div>
               </div>
             </div>
@@ -1290,31 +1290,15 @@ function Footer({ onContact }: { onContact: (type: string) => void }) {
             <h4 className="font-bold mb-4 text-gray-900 dark:text-white">Connect</h4>
             <div className="flex flex-wrap gap-3 mb-4">
               <a 
-                href="https://github.com/katmakhan" 
+                href="https://github.com/edhwinadavis" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 rounded-xl transition-all text-gray-700 dark:text-white"
               >
                 <Github size={20} />
               </a>
-              <a 
-                href="https://linkedin.com/in/jibin-victor-john-73a330114" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 rounded-xl transition-all text-gray-700 dark:text-white"
-              >
-                <Linkedin size={20} />
-              </a>
-              <a 
-                href="https://twitter.com/jibinvictorjohn" 
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-3 bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 rounded-xl transition-all text-gray-700 dark:text-white"
-              >
-                <Twitter size={20} />
-              </a>
                <a 
-                href="https://instagram.com/hi_functioning_sociopath" 
+                href="https://instagram.com/hi__tech_05" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-gray-100 dark:bg-slate-800 hover:bg-gray-200 dark:hover:bg-slate-700 rounded-xl transition-all text-gray-700 dark:text-white"
@@ -1339,7 +1323,7 @@ function Footer({ onContact }: { onContact: (type: string) => void }) {
 
         <div className="pt-8 border-t border-gray-200 dark:border-slate-800 text-center">
           <p className="text-gray-600 dark:text-gray-400 text-sm">
-            © {new Date().getFullYear()} Jibin Victor John. All rights reserved. Built with Next.js & Tailwind CSS.
+            © {new Date().getFullYear()} Edhwin A Davis. All rights reserved. Built with Next.js & Tailwind CSS.
           </p>
         </div>
       </div>
