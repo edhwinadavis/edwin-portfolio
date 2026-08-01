@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Hi Tech Solutions
 
-## Getting Started
+🚀 About Us
 
-First, run the development server:
+Hi Tech Solutions is an IT company focused on building modern, reliable, and scalable software solutions for businesses of all sizes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+We specialize in developing websites, custom software, ERP systems, CRM solutions, and business automation tools that help organizations improve productivity and grow efficiently.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Our Services
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🌐 Website Development
+- 💼 ERP Solutions
+- 📊 CRM Development
+- 📱 Mobile Application Development
+- 🖥️ Custom Software Development
+- ☁️ Cloud-Based Business Solutions
+- 🔧 Software Maintenance & Support
+- 🎨 UI/UX Design
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Why Choose Hi Tech Solutions?
 
-## Learn More
+- Custom-built solutions
+- Modern technologies
+- Secure and scalable applications
+- Responsive design
+- High-quality code
+- Dedicated customer support
 
-To learn more about Next.js, take a look at the following resources:
+Technologies We Use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- HTML, CSS, JavaScript
+- React
+- Node.js
+- PHP
+- Python
+- Java
+- MySQL & PostgreSQL
+- Git & GitHub
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Our Mission
 
-## Deploy on Vercel
+To empower businesses with innovative, affordable, and high-quality software solutions that drive digital transformation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🌐 Website: Coming Soon
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you for visiting our GitHub. We look forward to building innovative software that makes businesses more efficient and successful.
